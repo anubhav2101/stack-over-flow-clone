@@ -1,0 +1,30 @@
+.list-div{
+    height: 100vh;
+}
+.list-sec-div{
+    max-width: 100%;
+    width: calc(100% - 200px);
+    border: none;
+    
+}
+.user-list-container {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 30px;
+  }
+  .user-profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+  }
+  .user-profile-link h3 {
+    padding: 8px 13px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  .user-profile-link h5 {
+    margin: 0px 10px;
+  }

@@ -1,0 +1,43 @@
+ .tags-list{
+    border: none;
+    width: 100%;
+    margin: 5px;
+} 
+
+.tag-heading{
+    margin: 60px 0 10px 0;
+    font-weight: 400 ;
+}
+
+.tags-list p{
+    margin : 5px;
+    font-size: 14px;
+}
+.tags-list-contanier{
+   padding: 30px 0px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill ,minmax(200px ,1fr));
+   gap: 10px;
+}
+/* tags list  */
+
+.tags{
+   padding: 10px;
+   border: solid 1px #009dff;
+   border-radius: 5px;
+}
+.tags h5{
+   display: inline-block;
+   margin: 10px 0;
+   padding: 5px 5px;
+   background-color: #e1ecf4;
+   color: #39739d;
+}
+.tags p{
+   font-size: 14px;
+   color:#323232;
+   line-height: 17px;
+}
+
+
+ 

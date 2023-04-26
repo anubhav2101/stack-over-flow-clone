@@ -1,0 +1,143 @@
+.user-div{
+    height: 100vh;
+    border-bottom: none;
+}
+.user-section{
+    max-width: 100%;
+    width: calc(100% - 200px);
+    border: none;
+}
+.user-details-div-container{
+    width: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.user_details_div{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.user_name_h1 {
+    padding-left: 20px;
+
+}
+
+.user_name_h1 h1{
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.user_name_h1 p{
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.edit-user-btn{
+    margin-top: 50px;
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+.edit-user-btn:hover{
+    background-color: #f5f9fc;
+    border: 1px solid black;
+}
+.edit-profile-h1{
+    padding: 10px 0px;
+    border-bottom: solid 1px #dbd9d9;
+    margin-left: 10px;
+}
+.edit-profile-h2{
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.edit-profile-form{
+    padding: 20px;
+    border: solid 1px #dbd9d9;
+    border-radius: 5px;
+}
+.edit-profile-form label h3{
+    margin: 0%;
+    padding: 3px 0px;
+    font-weight: 400;
+}
+.profile-input{
+    width: 400px;
+    margin-top: 10px;
+    padding:  4px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.edit-profile-form textarea{
+    width: 400px;
+    margin-top: 10px;
+    height: 50px;
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 3px;
+} 
+.user-profile-btn{
+    padding: 8px 10px;
+    margin: 20px 15px;
+    background-color: #0086d8;
+    border: none;
+    font-weight: 500;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.user-profile-btn:hover{
+    background-color: white;
+    border: 1px solid #0086d8;
+    color: #0086d8;
+}
+
+@media (max-width : 1200px) {
+   .user-details-div-container{
+    display: flex;
+    flex-direction: column;
+   } 
+}
+@media (max-width :1020px) {
+    .edit-page{
+        width: 100%;
+    }
+}
+@media (max-width : 1020px) {
+    
+}
+@media (max-width : 720px) {
+    div .edit-profile-h1{
+        font-size: 18px;
+        border-bottom: none;
+    }
+    div .edit-profile-h2{
+        font-size: 15px;
+        border-bottom: none;
+    }
+
+    div form{
+        width: 300px;
+        
+    }
+
+    .edit-profile-form label input{
+        width: 250px;
+    }
+
+    .edit-profile-form textarea{
+        width: 250px;
+    }
+}

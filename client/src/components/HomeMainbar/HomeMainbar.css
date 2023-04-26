@@ -1,0 +1,123 @@
+ .main-bar{
+    float: left;
+    /* max-width: calc(100% - 300px ); */
+    width: 750px;
+    padding: 0;
+    margin: 40px 0px;    
+} 
+
+.main-bar-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-bar-header h1{
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.main-bar-header h1:hover{
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.main-bar-header .ask-btn{
+    padding: 10px  15px;
+    border-radius: 4px;
+    background-color: #009dff;
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.main-bar-header .ask-btn:hover{
+    background-color: #ffff; 
+    color: #009dff;
+    border: solid 1px #009dff;
+    font-weight: 500;
+}
+
+/* questions container css */
+
+.display-ans-container{
+    display: flex;
+    min-height: 80px;
+    width:100%;
+    align-items: center;
+    background-color: #fdf7e2;
+    border-bottom: solid 1px black; 
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+
+.display-ans-container .display-votes-ans{
+    padding: 10px;
+}
+
+.display-ans-container .display-votes-ans p{
+    margin: 0%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.display-question-detalis{
+    flex-grow: 1;
+    padding: 10px;
+    margin: 0%;
+}
+
+
+.display-title{
+    text-decoration: none;
+    color: #037ecb;
+    transition: 0.3s ease;
+}
+
+.display-title:hover{
+    color: #009dff;
+}
+
+.display-question-detalis p{
+    padding: 4px;
+    margin: 0%;
+    text-align: center;
+}
+
+.display-tags-time .display-tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-tags-time .display-tags p{
+    margin: 2px;
+    padding: 4px;
+    font-size: 13px;
+    background-color: #edeff0;
+    color: #39373d;  
+}
+
+.display-tags-time .display-time p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.display-tags-time .display-time span{
+    color: #037ecb;
+    font-weight: 500;
+}
+
+
+@media  screen and (max-width:1024px) {
+    .main-bar{
+    
+        width: 1100px;
+   
+    }
+}
+
+
+
+
+

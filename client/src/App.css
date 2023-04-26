@@ -1,0 +1,44 @@
+.home-contanier-1{
+    max-height: 100vh;
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0% auto;
+   
+}
+
+.home-contanier-2{
+    max-width: 1100px;
+    width: calc(100% - 164px);
+    border: solid 1px #d6d5dc;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+@media screen  and (max-width: 768px) {
+    .home-contanier-2{
+        max-width : 100%;
+        width: 100%;
+    }
+}
+
+.open-chatbot {
+    position: sticky;
+    bottom: 5%;
+    left: 95%;
+    background-color: #ef8236;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition:  ease-in-out 0.5s;
+    display: flex;
+  }
+  .open-chatbot:hover{
+    background-color: #fff;
+    border: 1.5px solid #ef8236;
+  }
+  
+
+
