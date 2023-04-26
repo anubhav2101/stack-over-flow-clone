@@ -21,7 +21,7 @@ const QuestionDetails = () => {
   const location = useLocation();
   const [Answer, setAnswer] = useState("");
   const User = useSelector((state) => state.currentUserReducer);
-  const url = "http://localhost:3000";
+  const url = "https://stackoverflow-c.onrender.com";
 
   const handlePostAns = (e, answerlength) => {
     e.preventDefault();
